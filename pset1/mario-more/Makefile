@@ -1,3 +1,3 @@
 
-mario:
-	cc -lcs50 $@.c -o $@
+mario: mario.c
+	cc -lcs50 $< -o $@
