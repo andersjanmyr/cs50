@@ -6,10 +6,6 @@ int read_height() {
     return get_int("Height: ");
 }
 
-void bricks(int c) {
-
-}
-
 void print_pyramid(int height)
 {
     for (int i = 1; i <= height; i++) {
